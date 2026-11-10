@@ -3,5 +3,8 @@ name = "nautilus-backtest-lab"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "nautilus-trader==1.231.0",
+    "pandas==2.3.3",
+]
